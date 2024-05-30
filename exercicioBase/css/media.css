@@ -1,0 +1,97 @@
+@media (max-width: 600px){
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        font-size: 0.70rem;
+        font-weight: 700;
+        gap: 0;
+    }
+}
+
+@media (max-width: 600px){
+    nav ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 600px){
+    #logoname{
+        width: 90px;
+        height: 50px;
+        padding: 5px;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 600px){
+    nav a:hover{
+        background-color: rgba(0, 157, 255, 0.408);
+        border-radius: 5%;
+        font-size: 0.8rem;
+    }
+    
+}
+
+@media (min-width: 840px){
+    #informacoesprincipais{
+        margin: 0px;
+    }
+}
+
+
+@media (max-width: 840px){
+    #infosobrejogo{
+        height: 80vh;
+        padding: 0;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 840px){
+    #text_infosobrejogo{
+        background-color: rgba(0, 0, 0, 0.422);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 80vh;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 840px){
+    #p_infosobrejogo{
+        width: 85%;
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
+
+
+@media (max-width: 800px){
+    #testerots {
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 800px){
+    #imagemrot:hover{
+        width: 350px;
+        border-radius: 5%;
+        box-shadow: 0px 0px 10px black;
+    }
+}
+
+.figcaption{
+    width: 80%;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
